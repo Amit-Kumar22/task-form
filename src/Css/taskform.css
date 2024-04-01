@@ -1,0 +1,43 @@
+.task.active{
+    display: block;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
+    background-color: #fff;
+    color: black;
+    position: fixed;
+    left: 35%;
+    top: 30%;
+    z-index: 2;
+    transition: 0.8s;
+    border-radius: 1rem;
+}
+.task{
+    display: none;
+}
+.task-create form, .Edit-Task form {
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    background: radial-gradient(circle at right top, #9e9adf, #d7c3a7);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+  }
+  .tittle-input, .desc-input, .prio-input, .ass-input{
+    width: 90%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .task-heading{
+  width: 100%;
+  margin-top: 0px;
+  padding: 16px 0px;
+  background-color: white;
+  font-family: system-ui;
+  letter-spacing: 1.5px;
+  }
+  

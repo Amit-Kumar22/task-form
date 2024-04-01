@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background: radial-gradient(circle at right top, #9e9adf, #d7c3a7);
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  width: 90%;
+  
+  min-height: 550px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 18px;
+  padding: 20px;
+}
+.container {
+  width: 100%;
+ 
+}
+.task-container {
+  background-color: #dedee3;
+  width: 180px;
+  margin-left: -20px;
+  padding: 15px;
+}
+.filter-box {
+  width: 90%;
+}
+.status-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10px;
+  gap: 1.2rem;
+  width: 100%;
+  margin: 0px 50px;
+}
+.status-box .heading {
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.status-box .heading2{
+  width: 100px;
+}
+h2 {
+  margin: 40px;
+}
+.pending,
+.success,
+.progress,
+.assignee,
+.deployed {
+  width: 100%;
+  margin-top: 0px;
+  padding: 8px 0px;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  background-color: red;
+  font-family: system-ui;
+  letter-spacing: 1.5px;
+  color: white;
+}
+.status-box li {
+  list-style: none;
+}
+.task-container .merge {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-list {
+  width: 70px; 
+  padding: 6px;
+  position: fixed;
+  transition: 0.8s;
+  margin: -80px 20px;
+  background-color: #cacae5;
+}
+.menu-list .delete, .menu-list .Edit{
+  margin: 5px 0px;
+  cursor: pointer;
+}
+.menu-list hr{
+  background-color: white;
+  margin: 0;
+}
+.menu .menu-baar,
+.priority {
+  background-color: rgb(75, 75, 177);
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+  height: 15px;
+  cursor: pointer;
+}
+hr {
+  width: 99%;
+  margin: 14px auto;
+  height: 1px;
+  background-color: black;
+}
+.descs {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: rgb(70, 62, 62);
+  width: 100%;
+}
+
+.status {
+  background-color: rgb(75, 75, 177);
+  width: 60%;
+  text-align: center;
+  color: white;
+  border-radius: 7px;
+  padding: 6px 0px;
+}
+.assign,
+.tittles {
+  font-weight: 500;
+  line-height: 10px;
+  font-family: sans-serif;
+}
+
+.Add-box{
+  width: 120px;
+  padding: 8px;
+  background-color: rgb(75, 75, 177);
+  border: none;
+  color: white;
+}
